@@ -11,7 +11,7 @@ with right_col:
     st.image("icon.jpg", width=150)
 
 st.text("Write your prompt:")
-user_prompt = st.text_input("")
+user_prompt = st.text_input("user_prompt", label_visibility="hidden")
 rephrased_prompt = ""
 if user_prompt:
     completion = client.chat.completions.create(
