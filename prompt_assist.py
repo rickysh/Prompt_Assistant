@@ -27,7 +27,7 @@ if user_prompt:
 st.text("")
 st.text("")
 st.text("")
-st.text("Let's write it better:")
+st.text("Let's re-write it better:")
 st.text("")
 st.text("")
 st.code(rephrased_prompt, language="markdown")
